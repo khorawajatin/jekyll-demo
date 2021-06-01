@@ -5,19 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jekyll Demo Site</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
 </head>
 <body>
 
  <header>
-     <nav>
-         <ul>
-             <li><a href="{{site.baseurl}}/index.html">Home</a></li>
-             <li><a href="{{site.baseurl}}/about.html">About Us</a></li>
-         </ul>
-     </nav>
+     <h1>This is a header</h1>
+     {% include nav.html navclass='nav-top' %}
  </header>   
 
+ <section class="content">
 {{content}}
+</section>
+
+<footer>
+    <p>&copy; 2021 Jekyell Demo</p>
+    {% include nav.html navclass='nav-btm' %}
+</footer>   
 
 </body>
 </html>

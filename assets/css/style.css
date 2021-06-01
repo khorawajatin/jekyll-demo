@@ -1,0 +1,68 @@
+/* line 1, ../scss/style.scss */
+body {
+  font-size: 14px;
+  line-height: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  margin: 0;
+}
+
+/* line 9, ../scss/style.scss */
+h1 {
+  font-size: 36px;
+  line-height: 1em;
+  margin: 0;
+}
+
+/* line 15, ../scss/style.scss */
+header {
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* line 21, ../scss/style.scss */
+nav {
+  width: 100%;
+  display: block;
+}
+/* line 25, ../scss/style.scss */
+nav ul {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+/* line 34, ../scss/style.scss */
+nav ul.nav-top li a {
+  font-size: 1.2em;
+}
+/* line 40, ../scss/style.scss */
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+/* line 44, ../scss/style.scss */
+nav ul li a {
+  text-decoration: none;
+}
+/* line 47, ../scss/style.scss */
+nav ul li a.current {
+  color: green;
+}
+
+/* line 55, ../scss/style.scss */
+.content {
+  width: 100%;
+  min-height: 200px;
+  padding: 5em;
+}
+
+/* line 61, ../scss/style.scss */
+footer {
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
