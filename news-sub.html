@@ -3,3 +3,12 @@ layout: news
 ---
 
 <h1>This is Jekyll News Sub page..</h1>
+
+<ol>
+    {% for news in site.data.news-data %}
+    <li>
+        <h4>{{news.title}}</h4>
+        <p>{{news.content}}</p>
+    </li>
+    {% endfor %}
+</ol>
